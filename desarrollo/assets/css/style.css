@@ -3,8 +3,11 @@
 
 
 html{
-    background-color: gray
+    background-color: gray;
 }
+
+
+
 /* Navegador (menu): conf. color y definicion del grid */
 nav{
     display: grid;
@@ -79,6 +82,8 @@ header{
     width: 250px;
     display: inline-block;
     vertical-align: middle;
+
+    margin: auto;
 }
 
 .artista2Img{
@@ -95,6 +100,8 @@ header{
     width: 250px;
     display: inline-block;
     vertical-align: middle;
+
+    margin: auto;
 }
 
 .artista2Texto p{
@@ -133,6 +140,8 @@ header{
     width: 250px;
     display: inline-block;
     vertical-align: middle;
+
+    margin: auto;
 }
 
 .artista4Img{
@@ -149,6 +158,8 @@ header{
     width: 250px;
     display: inline-block;
     vertical-align: middle;
+
+    margin: auto;
 }
 
 .artista4Texto p{
@@ -187,6 +198,8 @@ header{
     width: 250px;
     display: inline-block;
     vertical-align: middle;
+
+    margin: auto;
 }
 
 .artista6Img{
@@ -203,6 +216,8 @@ header{
     width: 250px;
     display: inline-block;
     vertical-align: middle;
+
+    margin: auto;
 }
 
 .artista6Texto p{
@@ -288,6 +303,8 @@ header{
 
     margin: 50px 10px 0px 10px;
     background-color: rgba(2, 2, 2, 0.6);
+
+    
 }
 
 #textoMusica{
@@ -303,21 +320,29 @@ header{
 #cancion1{
     grid-column: 1 / 2;
     grid-row: 2; 
+
+    margin: auto;
 }
 
-#cancion1{
+#cancion2{
     grid-column: 2 / 3;
     grid-row: 2;
+
+    margin: auto;
 }
 
-#cancion1{
+#cancion3{
     grid-column: 1 / 2;
     grid-row: 3;
+
+    margin: auto;
 }
 
-#cancion1{
+#cancion4{
     grid-column: 2 / 3;
     grid-row: 3;
+
+    margin: auto;
 }
 
 button {
@@ -329,4 +354,8 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+  }
+
+  .contactos img{
+    align-items: center;
   }
